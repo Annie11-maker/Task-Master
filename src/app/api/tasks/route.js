@@ -1,5 +1,5 @@
-import connectToDatabase from '@/lib/mongodb';
-import Task from '@/models/Task';
+import connectToDatabase from '../../../../lib/mongodb';
+import Task from '../../../../models/Task';
 
 export async function GET() {
   await connectToDatabase();
